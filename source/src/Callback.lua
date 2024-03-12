@@ -154,7 +154,7 @@ end
 end
 end
 end
-local txt = '↯︙ عزيزي 「 ['..UserInfo.first_name..'](tg://user?id='..who_promot..')⁪⁬‌‌‌‌ 」\n↯︙ تم تفعيلي في ['..Get_Chat.title..']('..Info_Chats.invite_link.invite_link..') تلقائياً\n '
+local txt = '↯︙ عزيزي ⦗ ['..UserInfo.first_name..'](tg://user?id='..who_promot..')⁪⁬⦘ \n↯︙ تم تفعيلي في ['..Get_Chat.title..']('..Info_Chats.invite_link.invite_link..') تلقائياً\n '
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
